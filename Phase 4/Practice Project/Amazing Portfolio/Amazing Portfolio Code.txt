@@ -1,0 +1,625 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,900&amp;display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Nav Bar -->
+    <section id="main">
+     <nav>
+         <!-- Logo -->
+         <a href="#" >
+          <h1 class="logo-heading">iam<span class="name">TOM</h1></span> 
+         </a>
+        <!-- Menu Items-->
+            <ul class="menu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#my-projects">PROJECTS</a></li>
+                <li><a href="#clients">CLIENTS</a></li>
+                <li><a href="#contact">CONTACTS</a></li>
+            </ul>
+            <!-- Contact Me Buttom -->
+        <a href="#" class="get-in-touch">Get in touch</a>        
+     </nav>
+    </section>
+    <!-- Main Section -->
+    <div class="content" id="home">
+        <!-- div on the left -->
+        <div class="model">
+            <img class="img" src="images/profile.jpg" alt="TOM">
+        </div>
+         <!-- div on the right -->
+        <div class="main-text">
+            <h1 class="logo-heading">iam <span class="name">TOM</span></h1>
+            <p>I am TOM. Full Stack Developer - I love coding</p>
+            <p>I love writing good code</p>
+            <a href="" class="portfolio-button">Get in touch</a>
+        </div>
+    </div>
+    </div>
+    <!-- Skills Section -->
+    <section id="skills">
+        <!-- Skill text -->
+        <div class=skill-text>
+            <!-- Skill Heading -->
+            <div class="skill-heading">
+                <span>My Skills</span>
+                <h2>My Expertise</h2>
+            </div>
+            <!-- Skill Description -->
+            <div class="s-box-container">
+                <!-- skill box 1 -->
+                <div class="skill-box">        
+                    <div class="s-box-icon">
+                        <!-- add icon -->
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <div class="s-box-text">
+                        <strong>Javascript</strong>
+                        <p>I am an expert in Javascript</p>
+                    </div>
+                </div>
+                <!-- skill box 2 -->
+                <div class="skill-box">
+                    <div class="s-box-icon">
+                        <!-- add icon -->
+                        
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <div class="s-box-text">
+                        <strong>CSS</strong>
+                        <p>I am becoming an expert in CSS</p>
+                    </div>
+                </div>
+                <!-- skill box 3 -->
+                <div class="skill-box">
+                    <div class="s-box-icon">
+                        <!-- add icon -->
+                        <i class="fab fa-python"></i>
+                        
+                    </div>
+                    <div class="s-box-text">
+                        <strong>Python</strong>
+                        <p>I am still learning Pyhton</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- Skill Image -->
+        <div class="skill-img">
+                <img src="images/skills-img.jpg" alt="skill image">
+        </div>
+
+    </section>
+
+    <!-- Project Section -->
+    <section id="my-projects">
+        <!-- Project Heading -->
+        <div class="skill-heading">
+            <span>Projects</span>
+            <h2>My Happy Clients</h2>
+        </div>
+        <!-- Project showcase -->
+        <div class="project-showcase">
+            <div class="project one">
+                <div id="hide">
+                    <p class="project-tect">Coca Cola</p>
+                    <a href="#" class="project-btn">Visit Website</a>
+                </div>
+            </div>
+            <div class="project two">
+                <div id="hide">
+                    <p class="project-tect">Coca Cola</p>
+                    <a href="#" class="project-btn">Visit Website</a>
+                </div>
+            </div>
+            <div class="project three">
+                <div id="hide">
+                    <p class="project-tect">Coca Cola</p>
+                    <a href="#" class="project-btn">Visit Website</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section id="clients">
+        <!-- Heading -->
+        <div class="skill-heading">
+            <span>Testimonials</span>
+            <h2>Hear from my Happy clients</h2>
+        </div>
+        <!-- Reviews -->
+        <div class="c-box-container">
+            <!-- Testimonial # 1 -->
+            <div class="client-box">
+                <img src="images/woman.svg" alt="">
+                <div class=star>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+                    <p>I had a great experience working with TOM</p>
+                    <a href="#">Read More</a>
+
+            </div>
+            <!-- Testimonial # 2 -->
+            <div class="client-box">
+                <img src="images/man.svg" alt="">
+                <div class=star>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                    
+                </div>
+                    <p>I had a great experience working with TOM</p>
+                    <a href="#">Read More</a>
+
+            </div>
+            <!-- Testimonial # 3 -->
+            <div class="client-box">
+                <img src="images/bussiness-man.svg" alt="">
+                <div class=star>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+                <p>I had a great experience working with TOM</p>
+                <a href="#">Read More</a>
+         
+            </div>
+
+        </div>
+    </section>
+    <!-- Contact Us Section -->
+    <section id="contact">
+        <img src="images/contact.jpg" alt="contact us image">
+        <h3> Let's work together - contact me</h3>
+        <div class="contact-input">
+            <input type="email" placeholder="tom@gmail.com">
+            <a href="">Let's Connect </a>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <p>iam TOM Official</p>
+        <p>Copyright 2022 - TOM</p>
+    </footer>
+    
+</body>
+</html>
+
+
+
+
+
+:root {
+    --main-bg-color: #6c5ce7;
+    --black-color: #000;
+    --margin: 0px;
+    --padding: 0px;
+    --white-main-color: #fff;
+    --dark-gray-color: #1e272e;
+    --light-gray-color: #747474;
+    --very-light-gray-color: #f0f0f0;
+}
+
+body {
+    margin: var(--margin);
+    padding: var(--padding);
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+section {
+     display: block; 
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+
+nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+        background-color: var(--white-main-color);
+        box-shadow: rgb(17 12 46 / 15%) 0px 48px 100px 0px;
+}
+
+.logo-heading {
+    font-weight: 300;
+    font-size: 25px;
+    color: var(--black-color);
+}
+
+
+.name{
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-color: var(--main-bg-color);
+}
+
+nav ul {
+    display: flex;
+    
+}
+ul {
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    
+}
+
+nav ul li a {
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #585b55;
+    letter-spacing: 1px;
+    font-size: 14px;
+    height: 40px;
+    line-height: 43px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.model {
+    height: 500px;
+    width: 500px;
+    display: block;
+}
+
+.model img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.portfolio-button {
+    width: 200px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-main-color);
+    background-color: var(--main-bg-color);
+    border-radius: 5px;
+}
+
+.main-text h1 {
+    font-size: 50px;
+    margin: 0px 0px 10px 0px;
+    line-height: 60px;
+}
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+.main-text p {
+    color: var(--light-gray-color);
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.skill-text {
+    width: 40%;
+}
+
+div {
+    display: block;
+}
+
+
+
+h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+}
+.s-box-container {
+    margin-top: 15px;
+}
+.skill-box {
+    display: flex;
+    margin: 25px 0px;
+}
+.s-box-icon {
+    margin-right: 15px;
+}
+
+.skill-img {
+    width: 45%;
+}
+
+.skill-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+#skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto auto 50px auto;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: auto auto 50px auto;
+}
+#contact img{
+    width: 50%;
+
+}
+#clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: auto auto 50px auto;
+    padding: 50px 0px;
+}
+
+.c-box-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+}
+
+.client-box {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: var(--main-bg-color);
+    color: var(--black-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+}
+
+.client-box img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: var(--white-main-color);
+    object-fit: contain;
+    border: 1px solid var(--white-main-color);
+}
+
+.star {
+    color: gold;
+    display: flex;
+    margin: 10px 0px 0px 0px;
+}
+
+.client-box p {
+    color: var(--white-main-color);
+    font-size: 14px;
+    margin: 10px 0px;
+    text-align: center;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.client-box a {
+    width: 190px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-bg-color);
+    background-color: var(--white-main-color);
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 1px solid white;
+}
+
+.client-box a:hover {
+    color: white;
+    background-color: rgba(222, 220, 232, 0.2);
+    border: 1px solid white;
+}
+
+#contact h3{
+    font: size 32px;
+    margin: 20px;
+}
+
+.contact-input {
+    width: 400px;
+    height: 50px;
+    background-color: var(--white-main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+.contact-input input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: var(--dark-gray-color);
+}
+.contact-input a {
+    width: 200px;
+    height: 40px;
+    background-color: var(--main-bg-color);
+    color: var(--white-main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: auto 10px;
+    font-size: 14px;
+}
+footer{
+    display:flex;
+    justify-content: space-around;
+    border-top: 1px solid var(--very-light-gray-color);
+}
+
+#my-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin: auto auto 50px auto;
+    flex-direction: column;
+}
+.skill-heading span {
+    color: var(--main-bg-color);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.skill-heading h2 {
+    color: var(--dark-gray-color);
+    font-size: 45px;
+    margin: 0px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.project-showcase {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.one {
+    background-image: url(images/cola.jpg);
+    background-size: contain;
+}
+
+.two {
+    background-image: url(images/uniliver.jpg);
+    background-size: contain;
+}
+
+.three {
+    background-image: url(images/OIP.jpg);
+    background-size: contain;
+}
+
+.project {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0px;
+}
+
+.project #hide {
+    visibility: hidden;
+    background-color: var(--white-main-color);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    opacity: 100%;
+    z-index: 1000;
+}
+.project-text {
+    color: var(--dark-gray-color);
+    font-size: 18px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.project-btn {
+    background-color: var(--black-color);
+    color: var(--white-main-color);
+    border: 1px solid var(--main-bg-color);
+    border-radius: 10px;
+    padding: 15px;
+}
